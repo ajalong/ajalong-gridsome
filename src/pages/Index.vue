@@ -2,6 +2,7 @@
   <Layout>
     <div class="px-6 p6-6 bg-black">
       <div class="bg-gray-800 pb-3/4 mb-10"></div>
+      <div class="bg-gray-800 pb-3/4 mb-10"></div>
     </div>
   </Layout>
 </template>
