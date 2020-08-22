@@ -40,10 +40,18 @@ query {
 </static-query>
 
 <style>
+@font-face {
+  font-family: SuisseIntl;
+  src: url("../assets/SuisseIntl-Regular-WebXL.woff");
+  font-weight: normal;
+}
+
 body {
-  font-family: "Suisse Int'l Trial", "Roboto", Arial, sans-serif;
+  font-family: "SuisseIntl", sans-serif;
 }
 html {
   font-size: 20px;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased;
 }
 </style>
