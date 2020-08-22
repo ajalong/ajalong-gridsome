@@ -1,17 +1,35 @@
 <template>
-  <div class="layout">
-    <header class="header">
-      <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-      </strong>
-      <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
-        <g-link class="nav__link" to="/about/">About</g-link>
-      </nav>
+  <div>
+    <header>
+      <div class="fixed z-10 w-full bg-black">
+        <div class="px-6 pt-4">
+          <nav class="nav">
+            <div class="flex items-center py-4 space-x-8">
+              <div class="text-white">
+                <g-link to="/">{{ $static.metadata.siteName }}</g-link>
+              </div>
+              <div class="hidden sm:inline">
+                <p class="text-white text-opacity-60">Digital designer with development skills</p>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
     </header>
-    <slot/>
+    <Footer />
+    <slot />
   </div>
 </template>
+
+<script>
+import Footer from "~/components/Footer.vue";
+
+export default {
+  components: {
+    Footer,
+  },
+};
+</script>
 
 <static-query>
 query {
@@ -23,28 +41,9 @@ query {
 
 <style>
 body {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  margin:0;
-  padding:0;
-  line-height: 1.5;
+  font-family: "Suisse Int'l Trial", "Roboto", Arial, sans-serif;
 }
-
-.layout {
-  max-width: 760px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-  height: 80px;
-}
-
-.nav__link {
-  margin-left: 20px;
+html {
+  font-size: 20px;
 }
 </style>
