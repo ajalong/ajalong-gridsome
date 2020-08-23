@@ -2,7 +2,7 @@
   <div class="relative min-h-screen px-2 bg-black text-white">
     <header>
       <div class="fixed bg-black z-10 w-full">
-        <div class="px-8 pt-8">
+        <div class="px-4 sm:px-8 pt-8">
           <nav class="nav">
             <div class="flex items-center py-4 space-x-8">
               <div>

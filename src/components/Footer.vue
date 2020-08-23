@@ -1,8 +1,8 @@
 <template>
-  <div class="h-screen">
+  <div class="h-192 sm:h-screen">
     <About />
     <div
-      class="absolute bottom-0 px-8 py-4 pb-12 text-white text-opacity-60 hover:underline hover:text-opacity-100"
+      class="absolute bottom-0 px-4 sm:px-8 py-4 pb-12 text-white text-opacity-60 hover:underline hover:text-opacity-100"
     >
       <a href="https://github.com/ajalong/ajalong-gridsome" target="_blank">
         <span>Static site built with Gridsome, Tailwindcss and deployed on Netlify.</span>
