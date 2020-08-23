@@ -1,11 +1,11 @@
 <template>
-  <div>
+  <div class="relative min-h-screen px-2 bg-black text-white">
     <header>
-      <div class="fixed z-10 w-full bg-black">
-        <div class="px-6 pt-4">
+      <div class="fixed bg-black z-10 w-full">
+        <div class="px-8 pt-8">
           <nav class="nav">
             <div class="flex items-center py-4 space-x-8">
-              <div class="text-white">
+              <div>
                 <g-link to="/">{{ $static.metadata.siteName }}</g-link>
               </div>
               <div class="hidden sm:inline">
@@ -16,16 +16,19 @@
         </div>
       </div>
     </header>
-    <Footer />
+    <About />
     <slot />
+    <Footer />
   </div>
 </template>
 
 <script>
+import About from "~/components/About.vue";
 import Footer from "~/components/Footer.vue";
 
 export default {
   components: {
+    About,
     Footer,
   },
 };
@@ -48,6 +51,9 @@ query {
 
 body {
   font-family: "SuisseIntl", sans-serif;
+  font-feature-settings: "kern";
+  font-kerning: normal;
+  -moz-osx-font-smoothing: grayscale;
 }
 html {
   font-size: 20px;
