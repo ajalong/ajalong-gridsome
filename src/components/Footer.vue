@@ -1,7 +1,9 @@
 <template>
   <div class="h-screen">
     <About />
-    <div class="absolute bottom-0 px-8 py-4 pb-12 text-white text-opacity-60 hover:underline">
+    <div
+      class="absolute bottom-0 px-8 py-4 pb-12 text-white text-opacity-60 hover:underline hover:text-opacity-100"
+    >
       <a href="https://github.com/ajalong/ajalong-gridsome" target="_blank">
         <span>Static site built with Gridsome, Tailwindcss and deployed on Netlify.</span>
         <svg class="h-4 w-4 fill-current inline ml-2" viewBox="0 0 16 20">
