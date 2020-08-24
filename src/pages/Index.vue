@@ -21,6 +21,7 @@
           </div>
         </g-link>
       </div>
+      <CaseStudyLink />
       <div class="flex flex-wrap">
         <div class="relative pb-3/5 w-full md:flex-1 md:mr-2 bg-gray-900 h-12 mb-2"></div>
         <div class="relative pb-3/5 w-full md:flex-1 bg-gray-900 h-12 mb-2"></div>
@@ -34,10 +35,12 @@
 
 <script>
 import About from "~/components/About.vue";
+import CaseStudyLink from "~/components/CaseStudyLink.vue";
 
 export default {
   components: {
     About,
+    CaseStudyLink,
   },
   metaInfo: {
     title: "Alan Long | Digital Designer",
