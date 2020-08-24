@@ -1,24 +1,28 @@
 <template>
-  <div class="relative min-h-screen px-2 bg-black text-white">
-    <header>
-      <div class="fixed bg-black z-10 w-full">
-        <div class="px-4 sm:px-8 pt-8">
-          <nav class="nav">
-            <div class="flex items-center py-4 space-x-8">
-              <div>
-                <g-link to="/">{{ $static.metadata.siteName }}</g-link>
+  <div class="min-h-screen bg-black">
+    <div class="relative max-w-screen-xl bg-black text-white px-2">
+      <header>
+        <div class="fixed left-0 bg-black z-40 w-full max-w-screen-xl">
+          <div class="px-6 sm:px-10 sm:pt-8">
+            <nav class="nav">
+              <div class="flex items-center py-4 space-x-4 md:space-x-8">
+                <div>
+                  <g-link to="/">{{ $static.metadata.siteName }}</g-link>
+                </div>
+                <div class>
+                  <span class="text-white text-opacity-60 inline">Digital designer</span>
+                  <span
+                    class="text-white text-opacity-60 hidden sm:inline ml-1"
+                  >with development skills</span>
+                </div>
               </div>
-              <div class="hidden sm:inline">
-                <p class="text-white text-opacity-60">Digital designer with development skills</p>
-              </div>
-            </div>
-          </nav>
+            </nav>
+          </div>
         </div>
-      </div>
-    </header>
-    <About />
-    <slot />
-    <Footer />
+      </header>
+      <slot />
+      <Footer />
+    </div>
   </div>
 </template>
 
@@ -57,6 +61,7 @@ body {
 }
 html {
   font-size: 20px;
+  color: #fff;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased;
 }
