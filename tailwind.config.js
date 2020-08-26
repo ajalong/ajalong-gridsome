@@ -19,6 +19,9 @@ module.exports = {
       '5xl': '3rem',
       '6xl': '4rem',
     },
+    inset: {
+      '1/2': '50%',
+    },
     extend: {
       spacing: {
         '128': '32rem',

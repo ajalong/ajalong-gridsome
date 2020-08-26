@@ -3,16 +3,16 @@
     <div class="relative max-w-screen-xl bg-black text-white px-2">
       <header>
         <div class="fixed left-0 bg-black z-40 w-full max-w-screen-xl">
-          <div class="px-6 sm:px-10 sm:pt-8">
+          <div class="px-4 sm:px-8 sm:pt-8">
             <nav class="nav">
               <div class="flex items-center py-4 space-x-4 md:space-x-8">
                 <div>
                   <g-link to="/">{{ $static.metadata.siteName }}</g-link>
                 </div>
                 <div class>
-                  <span class="text-white text-opacity-60 inline">Digital designer</span>
+                  <span class="text-white text-gray-600 inline">Digital designer</span>
                   <span
-                    class="text-white text-opacity-60 hidden sm:inline ml-1"
+                    class="text-white text-gray-600 hidden sm:inline ml-1"
                   >with development skills</span>
                 </div>
               </div>

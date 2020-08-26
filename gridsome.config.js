@@ -6,11 +6,20 @@
 
 module.exports = {
   siteName: 'Alan Long',
+  siteDescription: 'I’m a UX and branding designer with front-end development skills. I refine ideas to their essence and provide clarity for all involved.',
   plugins: [
     {
       use: 'gridsome-plugin-tailwindcss',
       options: {
         tailwindConfig: './tailwind.config.js',
+      },
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'content/posts/**/*.md',
+        typeName: 'Post',
+        route: '/blog/:slug'
       },
     },
   ],
