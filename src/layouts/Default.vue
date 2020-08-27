@@ -7,7 +7,7 @@
             <nav class="nav">
               <div class="flex items-center py-4 space-x-4 md:space-x-8">
                 <div>
-                  <g-link to="/">{{ $static.metadata.siteName }}</g-link>
+                  <g-link class="text-white" to="/">{{ $static.metadata.siteName }}</g-link>
                 </div>
                 <div class>
                   <span class="text-white text-gray-600 inline">Digital designer</span>
@@ -64,5 +64,19 @@ html {
   color: #fff;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased;
+}
+
+.bottom-0 {
+  bottom: 0;
+}
+
+a {
+  color: #757575;
+  text-decoration: none !important;
+}
+
+a:hover {
+  text-decoration: underline !important;
+  color: #fff;
 }
 </style>

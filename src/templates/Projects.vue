@@ -1,13 +1,17 @@
 <template>
   <Layout>
-    <div class="px-4 sm:px-8 py-12 sm:py-24">
-      <h1>{{ $page.projects.title }}</h1>
-      <h2>{{ $page.projects.subtitle }}</h2>
-      <VueRemarkContent>
-        <template v-slot:ImgVertical>
-          <ImgVertical />
-        </template>
-      </VueRemarkContent>
+    <div class="px-4 sm:px-8 py-12 sm:pt-24 sm:pb-12">
+      <div class="text-xl md:text-4xl leading-snug my-8">
+        <h1>{{ $page.projects.title }}</h1>
+        <h2 class="text-gray-600">{{ $page.projects.subtitle }}</h2>
+      </div>
+      <div>
+        <span class="block">{{ $page.projects.type }}</span>
+        <span class="block text-gray-600">{{ $page.projects.year }}</span>
+      </div>
+    </div>
+    <div class="px-4 sm:px-8">
+      <VueRemarkContent />
     </div>
   </Layout>
 </template>
@@ -18,17 +22,28 @@ query Projects($id: ID!) {
   projects(id: $id) {
         title
         subtitle
+        type
+        year
   }
 }
 
 </page-query>
 
-<script>
-import ImgVertical from "~/components/ImgVertical.vue";
+<style>
+p {
+  margin-bottom: 2.5rem;
 
-export default {
-  components: {
-    ImgVertical,
-  },
-};
-</script>
+  @media (min-width: 768px) {
+    width: 66.666667%;
+  }
+}
+h3 {
+  margin-bottom: 0.25rem;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+a {
+  color: #fff;
+  text-decoration: underline;
+}
+</style>

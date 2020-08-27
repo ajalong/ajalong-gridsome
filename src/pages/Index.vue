@@ -25,12 +25,6 @@ query Projects {
 }
 </page-query>
 
-<style>
-.bottom-0 {
-  bottom: 0;
-}
-</style>
-
 <script>
 import About from "~/components/About.vue";
 import PostList from "~/components/PostList.vue";
