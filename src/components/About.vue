@@ -4,12 +4,15 @@
       <div class="py-10">
         <p>I’m a UX and branding designer with front-end development skills. I refine ideas to their essence and provide clarity for all involved.</p>
       </div>
+      <div class="pb-10">
+        <p>Get in touch:</p>
+        <a
+          href="mailto:alan@ajalong.com"
+          class="pb-4 pr-4 md:pr-8 text-white text-opacity-60 hover:text-opacity-100 hover:underline"
+        >alan@ajalong.com</a>
+      </div>
     </div>
     <div class="flex flex-wrap">
-      <a
-        href="mailto:alan@ajalong.com"
-        class="pb-4 pr-4 md:pr-8 text-white text-opacity-60 hover:text-opacity-100 hover:underline"
-      >alan@ajalong.com</a>
       <a
         href="https://www.linkedin.com/in/alanalberglong/"
         target="_blank"
@@ -25,11 +28,6 @@
         target="_blank"
         class="pb-2 pr-4 md:pr-8 text-white text-opacity-60 hover:text-opacity-100 hover:underline"
       >Github</a>
-      <a
-        href="https://unsplash.com/@alaloo"
-        target="_blank"
-        class="pb-2 pr-4 md:pr-8 text-white text-opacity-60 hover:text-opacity-100 hover:underline"
-      >Unsplash</a>
       <a
         href="https://twitter.com/ajaloong"
         target="_blank"

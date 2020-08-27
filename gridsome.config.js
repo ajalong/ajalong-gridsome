@@ -15,12 +15,13 @@ module.exports = {
       },
     },
     {
-      use: '@gridsome/source-filesystem',
+      use: '@gridsome/vue-remark',
       options: {
-        path: 'content/posts/**/*.md',
-        typeName: 'Post',
-        route: '/blog/:slug'
-      },
+        typeName: 'Projects', // Required
+        baseDir: './projects', // Where .md files are located
+        template: './src/templates/Projects.vue', // Optional
+        route: '/project/:title'
+      }
     },
   ],
 };
