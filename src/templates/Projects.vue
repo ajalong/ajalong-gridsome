@@ -7,7 +7,7 @@
       </div>
       <div>
         <span class="block">{{ $page.projects.type }}</span>
-        <span class="block text-gray-600">{{ $page.projects.year }}</span>
+        <span class="block">{{ $page.projects.year }}</span>
       </div>
     </div>
     <div class="px-4 sm:px-8">
@@ -38,9 +38,7 @@ p {
   }
 }
 h3 {
-  margin-bottom: 0.25rem;
-  font-weight: bold;
-  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
 }
 a {
   color: #fff;

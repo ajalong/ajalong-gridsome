@@ -2,10 +2,10 @@
   <div class="px-4 sm:px-8 py-12 sm:py-24">
     <div class="text-xl md:text-4xl leading-snug">
       <div class="py-10">
-        <p>I’m a UX and branding designer with front-end development skills. I refine ideas to their essence and provide clarity for all involved.</p>
+        <span>I’m a UX and branding designer with front-end development skills. I refine ideas to their essence and provide clarity for all involved.</span>
       </div>
       <div class="pb-10">
-        <p>Get in touch:</p>
+        <span class="block">Get in touch:</span>
         <a
           href="mailto:alan@ajalong.com"
           class="pb-4 pr-4 md:pr-8 text-white text-opacity-60 hover:text-opacity-100 hover:underline"
