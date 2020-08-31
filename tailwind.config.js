@@ -22,6 +22,9 @@ module.exports = {
     inset: {
       '1/2': '50%',
     },
+    boxShadow: {
+      lg: '0 10px 30px -3px rgba(0, 0, 0, 1), 0 4px 10px -2px rgba(0, 0, 0, 0.5)',
+    },
     extend: {
       spacing: {
         '128': '32rem',

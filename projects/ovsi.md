@@ -4,7 +4,7 @@ subtitle: Responding to a crisis
 excerpt: OVSI is an international team designing a ventilator for lower income countries.
 type: Branding & Web design
 year: 2020
-featuredImage: https://res.cloudinary.com/ajalong/image/upload/w_1180,q_auto,f_auto/v1598535990/ovsi/ventilator-iso_jzkvnr.jpeg
+featuredImage: https://res.cloudinary.com/ajalong/image/upload/w_2360,q_auto,f_auto/v1598535990/ovsi/ventilator-closeup-front.jpg
 
 ---
 
@@ -12,6 +12,7 @@ import ImgDesktop from "~/components/ImgDesktop.vue";
 import ImgPhoto from "~/components/ImgPhoto.vue";
 import ImgPadding from "~/components/ImgPadding.vue";
 import ImgHalf from "~/components/ImgHalf.vue";
+import ImgHalfPadding from "~/components/ImgHalfPadding.vue";
 
 The Open Ventilator System Initiative (OVSI) was started at the University of Cambridge in response to the Coronavirus pandemic. In a matter of weeks a team of engineers designed a sophisticated ventilator that costs under $1000 and is simple to build from parts that can be sourced anywhere in the world. I created a visual Identity and a website for them.
 
@@ -22,9 +23,19 @@ The primary aim of the site was to help attract potential manufactures worldwide
 
 See the site at [ovsi.org](https://ovsi.org/)
 
-<ImgPhoto imgSrc="https://res.cloudinary.com/ajalong/image/upload/w_1180,q_auto,f_auto/v1598535990/ovsi/ovsi-macbook.png" imgAlt="ovsi.org ventilator close up" />
-<ImgHalf imgSrc1="https://res.cloudinary.com/ajalong/image/upload/w_1180,q_auto,f_auto/v1598535990/ovsi/ovsi.org-news-iphone11.png" imgAlt1="ovsi's twitter" imgSrc2="https://res.cloudinary.com/ajalong/image/upload/w_1180,q_auto,f_auto/v1598535990/ovsi/ovsi.org-ventilator-iphone11.png" imgAlt2="ovsi's twitter" />
-<ImgPhoto imgSrc="https://res.cloudinary.com/ajalong/image/upload/w_2360,q_auto,f_auto/v1598535990/ovsi/ventilator-iso_jzkvnr.jpeg" imgAlt="ovsi.org ventilator close up" />
+<ImgPhoto imgSrc="https://res.cloudinary.com/ajalong/image/upload/w_1180,q_auto,f_auto/v1598535990/ovsi/ovsi-macbook.png" imgAlt="ovsi.org desktop" />
+
+<ImgHalfPadding imgSrc1="https://res.cloudinary.com/ajalong/image/upload/w_1180,q_auto,f_auto/v1598535990/ovsi/ovsi.org-news-iphone11_uokx2e.png" imgAlt1="ovsi.org/news mobile" imgSrc2="https://res.cloudinary.com/ajalong/image/upload/w_1180,q_auto,f_auto/v1598535990/ovsi/ovsi.org-ventilator-iphone11_jor4ed.png" imgAlt2="ovsi.org mobile" />
+
+<ImgPhoto imgSrc="https://res.cloudinary.com/ajalong/image/upload/w_2360,q_auto,f_auto/v1598535990/ovsi/ventilator-iso_jzkvnr.jpeg" imgAlt="ovsi ventilator" />
+
+<ImgHalf imgSrc1="https://res.cloudinary.com/ajalong/image/upload/w_1180,q_auto,f_auto/v1598535990/ovsi/ventilator-closeup-side.jpg" imgAlt1="ovsi ventilator side view" imgSrc2="https://res.cloudinary.com/ajalong/image/upload/w_1180,q_auto,f_auto/v1598535990/ovsi/ventilator-closeup-backlit.jpg" imgAlt2="ovsi ventilator piping" />
+
+<ImgPhoto imgSrc="https://res.cloudinary.com/ajalong/image/upload/w_2360,q_auto,f_auto/v1598535990/ovsi/ventilator-closeup-front.jpg" imgAlt="ovsi ventilator" />
+
 <ImgDesktop imgSrc="https://res.cloudinary.com/ajalong/image/upload/w_885,q_auto,f_auto/v1598535990/ovsi/ovsi-mission.png" imgAlt="ovsi.org/mission full page" />
+
+<ImgDesktop imgSrc="https://res.cloudinary.com/ajalong/image/upload/w_885,q_auto,f_auto/v1598535990/ovsi/ovsi-team.png" imgAlt="ovsi.org/team" />
+
 <ImgDesktop imgSrc="https://res.cloudinary.com/ajalong/image/upload/w_885,q_auto,f_auto/v1598535990/ovsi/ovsi_pressure_graph.png" imgAlt="ovsi.org ventilator pressure/time graph" />
 

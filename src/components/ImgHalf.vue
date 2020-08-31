@@ -1,10 +1,10 @@
 <template>
   <div class="flex">
-    <div class="relative w-full md:flex-1 md:mr-2 bg-gray-900 mt-2 sm:py-12">
-      <img :src="`${imgSrc1}`" :alt="`${imgAlt1}`" class="sm:mx-auto sm:w-9/12" />
+    <div class="relative w-full md:flex-1 md:mr-2 bg-gray-900 mt-2">
+      <img :src="`${imgSrc1}`" :alt="`${imgAlt1}`" class="object-cover" />
     </div>
-    <div class="relative w-full md:flex-1 bg-gray-900 mt-2 sm:py-12">
-      <img :src="`${imgSrc2}`" :alt="`${imgAlt2}`" class="sm:mx-auto sm:w-9/12" />
+    <div class="relative w-full md:flex-1 bg-gray-900 mt-2">
+      <img :src="`${imgSrc2}`" :alt="`${imgAlt2}`" class="object-cover" />
     </div>
   </div>
 </template>
